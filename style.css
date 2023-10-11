@@ -125,9 +125,11 @@ img {
   flex-wrap: wrap;
   gap: 0.75rem;
 }
+
 .card__top__overlay {
   position: relative;
 }
+
 .card__top__overlay div {
   position: absolute;
   top: 0;
@@ -143,6 +145,7 @@ img {
 .card__top__overlay div:hover {
   opacity: 0.5;
 }
+
 .card__top__overlay-img img {
   position: absolute;
   left: 50%;
@@ -179,7 +182,7 @@ p {
   font-weight: var(--fw-bold);
 }
 
-.card__top-description > img {
+.card__top-description>img {
   width: 11px;
   height: 18px;
   margin-top: auto;
@@ -201,7 +204,7 @@ p {
   border-radius: 50%;
 }
 
-.card__bottom-name {
+.card__bottom-user {
   color: var(--clr-nuetral-font-secondary);
   margin-left: 0.5rem;
 }
