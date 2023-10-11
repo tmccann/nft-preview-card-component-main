@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <!-- font setup link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
   <!--css link  -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
@@ -20,54 +20,34 @@
 <body>
   <main>
     <div class="card">
-      
-      
-      
-      
       <section class="card__top">
-        <img src="./images/image-equilibrium.jpg" alt="">
-        <h2>Equilibrium #3429</h2>
-        <p class="card__top-description"> Our Equilibrium collection promotes balance and calm.</p>
-        
-        
+        <div class="card__top__overlay">
+          <img class="card__top-image" src="./images/image-equilibrium.jpg" alt="" />
+          <div class="card__top__overlay-img"><img src="/images/icon-view.svg" alt=""></div>
+        </div>
+        <h2><a href="#">Equilibrium #3429</a></h2>
+        <p class="card__top-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
         <div class="card__top-info">
-          <section class="card__top-description flex" >
-          <img src="/images/icon-ethereum.svg" alt="">
-          <span class="card__top__info-value">0.041 ETH</span>
+          <section class="card__top-description flex">
+            <img src="/images/icon-ethereum.svg" alt="" />
+            <span class="card__top__info-value">0.041 ETH</span>
           </section>
-          <section  class="flex">
-            <img class="clock"  src="/images/icon-clock.svg" alt="">
-          <span>3 days left</span>
-        </section>
-      </div>
-      </section>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <section class="card__bottom flex">
-        <img class="avatar" src="/images/image-avatar.png" alt="">
-        <span>  Creation of </span><span class="name">Jules Wyvern</span>
+          <section class="flex">
+            <img class="clock" src="/images/icon-clock.svg" alt="" />
+            <span>3 days left</span>
+          </section>
+        </div>
       </section>
 
+      <section class="card__bottom flex">
+        <img class="avatar" src="/images/image-avatar.png" alt="" />
+        <span> Creation of </span><a href="#"><a href="#" class="name">Jules Wyvern</a>
+      </section>
     </div>
   </main>
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>
